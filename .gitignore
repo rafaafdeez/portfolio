@@ -1,0 +1,32 @@
+# Archivos de configuración local (no necesarios en repositorio público)
+CONFIGURACION_EMAIL.md
+CHECKLIST_FINAL.md
+RESUMEN_GITHUB.md
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Carpetas de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de log
+*.log
+
+# Archivos temporales
+*.tmp
+*.temp
+*~
+
+# Node modules (si se usa en el futuro)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Archivos de backup
+*.bak
+*.backup

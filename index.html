@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafael Fernández - Estudiante de Ingeniería Informática</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" href="img/icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="hero-section">
+        <div class="container">
+            <img src="img/cara.jpg" alt="Rafael Fernández" class="profile-picture">
+            <h1>¡Hola! Soy Rafael Fernández</h1>
+            <p class="tagline">Estudiante de Ingeniería Informática con pasión por el software y la
+                resolución de problemas.</p>
+            <div class="cta-buttons">
+                <a href="#sobre-mi" class="btn btn-secondary" onclick="scrollToSection('sobre-mi')">Sobre Mí</a>
+                <a href="#proyectos" class="btn btn-primary" onclick="scrollToSection('proyectos')">Ver Proyectos</a>
+                <a href="#contacto" class="btn btn-secondary" onclick="scrollToSection('contacto')">Contactar</a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/rafaafdeez" target="_blank" aria-label="GitHub"><img src="img/github.png"
+                        alt="GitHub"></a>
+                <a href="https://www.linkedin.com/in/rafael-fern%C3%A1ndez-rosi-22721223a" target="_blank"
+                    aria-label="LinkedIn"><img src="img/linkedin.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Sección Sobre Mí -->
+        <section id="sobre-mi">
+            <div class="container">
+                <h2>Sobre Mí</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p style="font-weight: bold;">Soy un estudiante apasionado de Ingeniería Informática con enfoque
+                            en desarrollo de software.
+                            Me especializo en crear soluciones innovadoras y eficientes utilizando las últimas
+                            tecnologías.</p>
+                        <p style="font-weight: bold;">Mi objetivo es contribuir al mundo tecnológico desarrollando
+                            aplicaciones que resuelvan
+                            problemas reales
+                            y mejoren la experiencia de los usuarios.</p>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h3>Lenguajes de Programación</h3>
+                            <div class="skills-list">
+                                <span class="skill-tag">Java</span>
+                                <span class="skill-tag">C</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">C++</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Tecnologías Web</h3>
+                            <div class="skills-list">
+                                <span class="skill-tag">HTML5</span>
+                                <span class="skill-tag">CSS3</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Bases de Datos</h3>
+                            <div class="skills-list">
+                                <span class="skill-tag">MySQL</span>
+                                <span class="skill-tag">MongoDB</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Herramientas</h3>
+                            <div class="skills-list">
+                                <span class="skill-tag">Git</span>
+                                <span class="skill-tag">Docker</span>
+                                <span class="skill-tag">VS Code</span>
+                                <span class="skill-tag">IntelliJ IDEA</span>
+                                <span class="skill-tag">DBeaver</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Proyectos -->
+        <section id="proyectos">
+            <div class="container">
+                <h2>Mis Proyectos</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">🌐</div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Sistema de Gestión Académica</h3>
+                            <p>Aplicación web completa para gestionar estudiantes, cursos y calificaciones. Desarrollada
+                                con React y Node.js.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MySQL</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-sm btn-primary">Ver Demo</a>
+                                <a href="#" class="btn btn-sm btn-secondary">Código</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">📱</div>
+                        </div>
+                        <div class="project-content">
+                            <h3>App de Tareas Inteligente</h3>
+                            <p>Aplicación móvil para gestión de tareas con IA integrada para sugerencias automáticas y
+                                optimización de tiempo.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">Android</span>
+                                <span class="tech-tag">SQLite</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-sm btn-primary">Ver Demo</a>
+                                <a href="#" class="btn btn-sm btn-secondary">Código</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">🤖</div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Chatbot de Atención al Cliente</h3>
+                            <p>Bot inteligente con procesamiento de lenguaje natural para automatizar respuestas en
+                                tiempo real.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">NLP</span>
+                                <span class="tech-tag">Flask</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-sm btn-primary">Ver Demo</a>
+                                <a href="#" class="btn btn-sm btn-secondary">Código</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">📊</div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Dashboard de Análisis de Datos</h3>
+                            <p>Plataforma de visualización interactiva para análisis de grandes volúmenes de datos en
+                                tiempo real.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Pandas</span>
+                                <span class="tech-tag">D3.js</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-sm btn-primary">Ver Demo</a>
+                                <a href="#" class="btn btn-sm btn-secondary">Código</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Experiencia/Educación -->
+        <section id="experiencia">
+            <div class="container">
+                <h2>Experiencia y Educación</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2021 - Presente</div>
+                        <div class="timeline-content">
+                            <h3>Estudiante de Ingeniería Informática</h3>
+                            <p class="timeline-company">Universidad de Huelva</p>
+                            <p>Especialización en Desarrollo de Software.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2024 - Presente</div>
+                        <div class="timeline-content">
+                            <h3>Profesor de Robótica (niños)</h3>
+                            <p class="timeline-company">MindLabs S.L</p>
+                            <p>Impartición de clases de robótica educativa para niños, fomentando el aprendizaje de
+                                programación y pensamiento lógico mediante proyectos prácticos y actividades
+                                interactivas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Contacto -->
+        <section id="contacto">
+            <div class="container">
+                <h2>¡Hablemos!</h2>
+                <p class="contact-intro">¿Tienes un proyecto interesante o una oportunidad? Me encantaría saber de ti.
+                </p>
+
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>rafaelfernandezrosi@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📱</div>
+                            <div>
+                                <h4>Teléfono</h4>
+                                <p>+34 642 758 834</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <h4>Ubicación</h4>
+                                <p>Huelva</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Tu email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Asunto" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Tu mensaje" required></textarea>
+                        </div>
+                        <input type="hidden" name="_captcha" value="false">
+
+                        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+
+                        <!-- Enlace alternativo para email directo -->
+                        <p style="margin-top: 15px; font-size: 0.9em; color: #666;">
+                            ¿Problemas con el formulario?
+                            <a href="mailto:rafaelfernandezrosi@gmail.com?subject=Contacto desde Portfolio&body=Hola Rafael,%0D%0A%0D%0AMe pongo en contacto contigo desde tu portfolio.%0D%0A%0D%0ASaludos"
+                                style="color: var(--primary-color); text-decoration: underline;">
+                                Envía un email directo
+                            </a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Rafael Fernández. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Botón de volver arriba -->
+    <button id="back-to-top" class="back-to-top" onclick="scrollToSection('top')" title="Volver arriba">
+        ↑
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
