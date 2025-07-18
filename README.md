@@ -1,6 +1,8 @@
 # 💼 Portfolio Personal - Rafael Fernández
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&lo## 📝 Secciones del Portfolio
+https://rafaafdeez.github.io/portfolio/
+
+📝 Secciones del Portfolio
 
 - **🏠 Hero**: Presentación principal con efecto parallax y animación de escritura
 - **👨‍💻 Sobre Mí**: Información personal y habilidades técnicas organizadas por categorías
